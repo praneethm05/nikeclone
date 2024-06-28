@@ -3,7 +3,7 @@ import moment from 'moment';
 
 export default function  ExampleExcersise() {
 
- let date = moment([1970, 0, 25]).fromNow(); 
+ let date = moment([2004, 0, 25]).fromNow(); 
 
 
   return (
