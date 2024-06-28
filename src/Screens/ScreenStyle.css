@@ -1,0 +1,382 @@
+.squaredivs {
+  width: 40%;
+  background-color: black;
+  display: flex;
+  white-space: nowrap;
+}
+
+.divimg {
+  width: 300px;
+  border: solid black 30px;
+}
+
+@font-face {
+  font-family: "Cretina-Bold";
+  src: url("./assets/Cretina-Bold.ttf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "corporatesdemi";
+  src: url("./assets/corporates-demi.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+
+
+
+@font-face {
+  font-family: "superbright";
+  src: url("./assets/superbright.ttf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "VVDS Fifties SCond SBold";
+  src: url("../components/VVDS-Fifties-SCond-SBold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Helvetica Roman";
+  src: url("../components/Helvetica Roman.ttf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.tagline1 {
+  font-family: "Cretina-Bold";
+  transform: translate(0%, -400%);
+  color: white;
+
+  width: fit-content;
+  margin: auto;
+  text-align: left;
+  font-size: 100px;
+
+  border-radius: 15px;
+  text-align: center;
+
+  padding: 10px;
+}
+
+.mainsquare {
+  filter: brightness(0.35);
+  background-color: black;
+  width: 100%;
+}
+
+.row1 {
+  animation: marqueeRight 30s linear infinite;
+}
+
+.row2 {
+  animation: marqueeRight 30s linear infinite;
+}
+
+.row3 {
+  animation: marqueeRight 30s linear infinite;
+}
+
+@keyframes marqueeRight {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX();
+  }
+}
+
+.nikelove {
+  font-family: "VVDS Fifties SCond SBold";
+  font-size: 50px;
+  padding: 10px;
+}
+
+.nikelovesecond {
+  font-family: "VVDS Fifties SCond SBold";
+  font-size: 40px;
+  margin-bottom: 30px;
+  text-decoration: underline;
+  padding: 10px;
+}
+
+.whyus {
+  background-color: #f2f2f2;
+  margin-bottom: 10px;
+}
+
+.acheivements {
+  font-size: 20px;
+  padding: 60px;
+  padding-top: 0px;
+  text-align: justify;
+  font-family: "Helvetica Roman";
+  margin-bottom: 50px;
+  line-height: 1.4;
+}
+
+.shoedog {
+  background-color: #000000bb;
+  height: 800px;
+  margin-top: 70px;
+  margin-bottom: 400px;
+  display: flex;
+}
+
+.bookimgcontainer {
+  margin-top: 80px;
+  margin-left: 100px;
+  height: fit-content;
+}
+
+.brandimg {
+  margin-bottom: 100px;
+}
+
+.booktitle {
+  font-family: "superbright";
+  font-size: 40px;
+  margin-top: 120px;
+  text-align: left;
+  margin-left: 60px;
+  color: white;
+}
+
+.infocontainer {
+  background-color: rgb(56, 55, 55);
+}
+
+.avail {
+  font-family: "Times New Roman", Times, serif;
+  text-align: left;
+  margin-top: -70px;
+  margin-left: 70px;
+  font-weight: bold;
+  color: white;
+}
+
+.shopfrom {
+  width: 160px;
+  height: 100px;
+  margin-top: -10px;
+  background-color: white;
+  border-radius: 10px;
+  border: solid black 2px;
+  object-fit: cover;
+}
+
+.mission {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  width: 600px;
+  line-height: 2;
+  height: fit-content;
+  margin: auto;
+  margin-left: 10px;
+  margin-right: 20px;
+  text-align: justify;
+  border: solid black;
+  padding: 20px;
+
+  flex: 1;
+  margin-bottom: 100px;
+}
+
+.producti {
+  width: 500px;
+  height: 500px;
+  background-color: #f2f2f2;
+  border: solid black 2px;
+  margin: 05px;
+  margin-top: 100px;
+  overflow: hidden;
+}
+
+.productimg {
+  height: 300px;
+  border: solid rgb(68, 68, 68) 20px;
+  border-top: solid  rgb(68, 68, 68) 19px;
+  border-bottom: solid  rgb(68, 68, 68) 15px;
+  border-left: solid  rgb(68, 68, 68)  15px;
+
+  overflow: hidden;
+}
+
+.buyinfo {
+  background-color: rgb(32, 32, 32);
+  padding-top: 4px;
+
+
+  height: 196px;
+  border-collapse: collapse;
+
+  width: 296.5px;
+  position: absolute;
+}
+
+.proinfo {
+  font-size: 25px;
+  padding: 60px;
+  padding-top: 10px;
+  text-align: left;
+  font-family: "Helvetica Roman";
+  margin-left: -40px;
+ 
+  color: white;
+}
+
+.mrp{
+  color: rgb(120, 255, 120);
+  margin-top: -110px;
+  text-align: left;
+  font-family: corporatesdemi;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.proaction{
+  font-family: corporatesdemi;
+  padding: 10px;
+  margin: 10px;
+  margin-top: -200px;
+  border-radius: 20px;
+  border: solid black 2px;
+  width: 70px;
+  background-color: white;
+  object-fit: cover;
+  
+}
+
+.icons{
+  width: 25px;
+  background-color: white;
+  object-fit: cover;
+}
+
+
+.hiringcard{
+  flex: 1;
+  width: 400px;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.845);
+  border: white solid; 
+  margin: 50px;
+  padding: 20px; 
+  border-radius: 20px;
+  overflow: hidden; 
+}
+
+.maindivjoin{
+  width: 100%;
+  height: 100% ;
+  background-image: url("./assets/hqnike.jpg");
+  filter: brightness(0.9);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 100px;
+}
+
+.hiringinfo{
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-family: 'VVDS Fifties SCond SBold';
+  margin: auto;
+  
+  background: rgb(0, 0, 0);
+  width: 400px;
+  padding: 10px;
+}
+
+.newinfo{
+  font-family: "corporatesdemi";
+  padding: 10px;
+  padding-top: 0px;
+  width: 400px;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 20px;
+  margin: auto;
+  background: rgba(254, 44, 44, 0.967);
+  color: white;
+}
+
+.infoofthis{
+  padding-top: 50px;
+
+
+}
+
+.position{
+  background: white;
+  padding: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.req{
+  font-size: 25px;
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 20px;
+  color: white;
+
+}
+
+.detailreq{
+  color: white;
+  text-align: left;
+  padding: 0px;
+
+ 
+  width: 100%;
+ 
+  
+}
+.applybtn{
+  width: 200px;
+  margin-left:130px ;
+  background-color: black ;
+  color: white;
+  border-radius: 20px;
+  border: solid white 2px;
+  padding: 5px;
+}
+
+.formwrap{
+  width: 600px;
+  margin: auto;
+
+ 
+  padding: 80px;
+  padding-top:30px ;
+  padding-bottom: 100px;
+  text-align: left;
+}
+
+
+.applyformdesign{
+  background-color: aquamarine;
+
+  width: fit-content;
+  height: fit-content;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 100px;
+  padding-top: 10px;
+  object-fit: contain;
+  border-radius: 30px;
+  border:  solid black 2px;
+  background-position: center;
+
+ 
+}
